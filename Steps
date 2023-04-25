@@ -1,0 +1,4 @@
+$ pyp2spec generalfile
+$ rpmbuild -ba python-generalfile.spec
+$ cd rpmbuild/RPMS/noarch
+$ sudo dnf install python-generalfile-2.5.14.tar.gz
